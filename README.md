@@ -1,3 +1,3 @@
 # Tacho
 
-Ein Fahrrad-Tacho welche auf einem TFT display die aktuelle Geschwindigkeit und die zurückgelekten Kilometer anzeigt.
+A bicycle speedometer which shows the current speed and the kilometers traveled on a TFT display.
