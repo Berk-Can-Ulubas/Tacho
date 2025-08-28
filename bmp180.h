@@ -9,4 +9,6 @@
 #ifndef __BMP180__H__
 #define __BMP180__H__
 
+void init_bmp180(void);
+
 #endif  //!__BMP180__H__

@@ -10,6 +10,8 @@
 #include "stm32f4xx.h"
 
 #define TICKS_PER_SECOND 90000000 // 90MHz clock
+#define TICKS_PER_MS 90000
+#define TICKS_PER_US 90
 
 void init_timer(void)
 {
@@ -50,7 +52,7 @@ double timeDiff(uint32_t start, uint32_t end)
 	{
 		diff = end - start;
     }
-	return (diff / TICKS_PER_SECOND);
+	return (diff / TICKS_PER_US);
 }
 
 void sleep(double time)

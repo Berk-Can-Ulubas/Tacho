@@ -28,7 +28,7 @@ void routing()
 	RCC->APB2ENR |= RCC_APB2ENR_SYSCFGEN; // System conf. Clock enable
 	// Routing Pin 0 of Port A -> EXTI0
 	SYSCFG->EXTICR[0] &= ~(0x0F << (4 * 0)); // Remove old selection
-	SYSCFG->EXTICR[0] |= 0x06 << (4 * 0);	 
+	SYSCFG->EXTICR[0] |= 0x00 << (4 * 0);	 
 }
 
 void iqr() // which action should cause an interrupt

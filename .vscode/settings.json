@@ -1,5 +1,7 @@
 {
   "files.associations": {
-    "a3144.h": "c"
-  }
+    "a3144.h": "c",
+    "stm32f4xx.h": "c"
+  },
+  "C_Cpp.default.compilerPath": ""
 }
